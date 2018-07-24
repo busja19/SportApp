@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    title title
+    link(rel='stylesheet', href='../app.css', type='text/css')
+  body
+    .header
+      .imhold
+        img#theLogo.logoIm(alt='logo', src='/logo.png')
+      .navhold
+        .topnav
+          a(href='/') Home
+          a(href='/products') Products
+          a(href='#') Categories
+    block content
+ 
+  .footer
+      p
+        | This is my first JS Application!
